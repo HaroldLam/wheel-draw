@@ -13,40 +13,31 @@ $(document).ready(function() {
 	  		"easeOutQuad",
 	  		function() {
 	  			running = false;
-	  			// $(".result").text("done");
 
 	  			switch (resultDeg / baseIdx) {
 				    case 1:
 					    $(".result").text("violet");
-			        // $(".result").text("red");
 			        break;
 				    case 3:
 					    $(".result").text("blueviolet");
-			        // $(".result").text("orange");
 			        break;
 				    case 5:
 					    $(".result").text("blue");
-			        // $(".result").text("yellow");
 			        break;
 				    case 7:
 					    $(".result").text("aquamarine");
-			        // $(".result").text("lightgreen");
 			        break;
 				    case 9:
 					    $(".result").text("lightgreen");
-			        // $(".result").text("aquamarine");
 			        break;
 				    case 11:
 					    $(".result").text("yellow");
-			        // $(".result").text("blue");
 			        break;
 			      case 13:
 				      $(".result").text("orange");
-			        // $(".result").text("blueviolet");
 			        break;
 			      case 15:
 				      $(".result").text("red");
-			        // $(".result").text("violet");
 			        break;
 			      default:
 			      	$(".result").text("Please try again.");
