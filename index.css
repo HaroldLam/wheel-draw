@@ -118,8 +118,21 @@ body {
   height: 25rem;
   border-radius: 25rem;
   clip: rect(0 12.5rem 25rem 0);
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.page-container .pie-container .pie-wrapper .pie .pie-text {
+  width: 8rem;
+  text-align: center;
+  word-break: break-all;
+  color: black;
+  margin: 3rem 5rem;
+  font-size: 1rem;
+  font-family: monospace;
+  transform: rotate(-22.5deg);
+  -webkit-transform: rotate(-22.5deg);
+  z-index: 999;
 }
 
 .page-container .pie-container .pie-wrapper .pie1 {
