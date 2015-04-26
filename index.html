@@ -2,36 +2,51 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Wheel Draw</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
-	<div class="pie-container">
-		<div id="pie-slice1" class="pie-wrapper">
-			<div class="pie pie1"></div>
+	<div class="page-container">
+		<div class="flag-container">
+			<div class="flag"></div>
 		</div>
-		<div id="pie-slice2" class="pie-wrapper">
-			<div class="pie pie2"></div>
+		<div class="pie-container">
+			<div id="pie-slice1" class="pie-wrapper">
+				<div class="pie pie1"></div>
+			</div>
+			<div id="pie-slice2" class="pie-wrapper">
+				<div class="pie pie2"></div>
+			</div>
+			<div id="pie-slice3" class="pie-wrapper">
+				<div class="pie pie3"></div>
+			</div>
+			<div id="pie-slice4" class="pie-wrapper">
+				<div class="pie pie4"></div>
+			</div>
+			<div id="pie-slice5" class="pie-wrapper">
+				<div class="pie pie5"></div>
+			</div>
+			<div id="pie-slice6" class="pie-wrapper">
+				<div class="pie pie6"></div>
+			</div>
+			<div id="pie-slice7" class="pie-wrapper">
+				<div class="pie pie7"></div>
+			</div>
+			<div id="pie-slice8" class="pie-wrapper">
+				<div class="pie pie8"></div>
+			</div>
 		</div>
-		<div id="pie-slice3" class="pie-wrapper">
-			<div class="pie pie3"></div>
+		<div class="button-wrapper">
+			<button class="draw-btn" type="button">Draw</button>
+			<button class="reset-btn" type="button">Reset</button>
 		</div>
-		<div id="pie-slice4" class="pie-wrapper">
-			<div class="pie pie4"></div>
-		</div>
-		<div id="pie-slice5" class="pie-wrapper">
-			<div class="pie pie5"></div>
-		</div>
-		<div id="pie-slice6" class="pie-wrapper">
-			<div class="pie pie6"></div>
-		</div>
-		<div id="pie-slice7" class="pie-wrapper">
-			<div class="pie pie7"></div>
-		</div>
-		<div id="pie-slice8" class="pie-wrapper">
-			<div class="pie pie8"></div>
-		</div>
+		<div class="result"></div>
+	</div>
 </body>
 
 </html>
