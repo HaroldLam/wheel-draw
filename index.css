@@ -1,0 +1,104 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+}
+
+.pie-container {
+	width: 50rem;
+  height: 50rem;
+  position: relative;
+  border-radius: 50rem;
+  background-color: rgb(136, 143, 255);
+}
+
+.pie-container .pie-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50rem;
+  clip: rect(0 50rem 50rem 25rem);
+}
+
+#pie-slice2 {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#pie-slice3 {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+#pie-slice4 {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#pie-slice5 {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+#pie-slice6 {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+
+#pie-slice7 {
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+}
+
+#pie-slice8 {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+}
+
+.pie-container .pie-wrapper .pie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50rem;
+  clip: rect(0 25rem 50rem 0);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.pie-container .pie-wrapper .pie1 {
+  background-color: rgb(255, 68, 72);
+}
+
+.pie-container .pie-wrapper .pie2 {
+	background-color: rgb(255, 159, 17);
+}
+
+.pie-container .pie-wrapper .pie3 {
+  background-color: rgb(255, 245, 62);
+}
+
+.pie-container .pie-wrapper .pie4 {
+	background-color: rgb(70, 255, 17);
+}
+
+.pie-container .pie-wrapper .pie5 {
+  background-color: rgb(17, 255, 249);
+}
+
+.pie-container .pie-wrapper .pie6 {
+	background-color: rgb(0, 126, 253);
+}
+
+.pie-container .pie-wrapper .pie7 {
+	background-color: rgb(44, 32, 255);
+}
+
+.pie-container .pie-wrapper .pie8 {
+	background-color: rgb(250, 26, 255);
+}
